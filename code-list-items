@@ -1,0 +1,11 @@
+items  = ["apple","laptop","phonevix","holy bible"]
+user_input = input("What's your next item sir?").lower()
+user_price = int(input("Under which prince : "))
+for item   in items:
+    if item == user_input.lower():
+        print("Here is your item")
+        print(f"This {item} price: {user_price}")
+        
+        break
+else:
+    print("Item not found or output of stock")
